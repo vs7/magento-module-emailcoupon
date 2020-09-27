@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <vs7 translate="label">
+            <label>VS7</label>
+            <sort_order>210</sort_order>
+        </vs7>
+    </tabs>
+    <sections>
+        <vs7_emailcoupon translate="label">
+            <label>Email Coupon</label>
+            <tab>vs7</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>90</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>General Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <active translate="label">
+                            <label>Enable</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </active>
+                        <rule_id translate="label">
+                            <label>Rule ID</label>
+                            <comment>Rule ID</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </rule_id>
+                        <subscribed translate="label">
+                            <label>Apply for subscribed customers only</label>
+                            <comment>Apply for subscribed customers only</comment>
+                            <frontend_type>checkbox</frontend_type>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </subscribed>
+                    </fields>
+                </general>
+            </groups>
+        </vs7_emailcoupon>
+    </sections>
+</config>

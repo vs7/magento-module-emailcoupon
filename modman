@@ -1,0 +1,7 @@
+app/code/community/VS7/EmailCoupon                             app/code/community/VS7/EmailCoupon
+app/etc/modules/VS7_EmailCoupon.xml                            app/etc/modules/VS7_EmailCoupon.xml
+app/design/frontend/base/default/template/vs7_emailcoupon      app/design/frontend/base/default/template/vs7_emailcoupon
+app/design/frontend/base/default/layout/vs7_emailcoupon.xml    app/design/frontend/base/default/layout/vs7_emailcoupon.xml
+app/locale/ru_RU/VS7_EmailCoupon.csv                           app/locale/ru_RU/VS7_EmailCoupon.csv
+app/locale/en_US/template/email/vs7_emailcoupon                app/locale/en_US/template/email/vs7_emailcoupon
+skin/frontend/base/default/vs7_emailcoupon                     skin/frontend/base/default/vs7_emailcoupon

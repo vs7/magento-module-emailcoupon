@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'SackersGothicStd';
+    src: url('fonts/SackersGothicStd-Heavy.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BeryRoman-Normal';
+    src: url('fonts/BeryRoman-Normal.otf') format('truetype');
+}
+
+.vs7-emailcoupon-container {
+    background: url(img/back1.png) no-repeat 38% -23%;
+    height: 100%;
+    padding: 75px 0 0 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vs7-emailcoupon-row {
+    width: auto;
+}
+
+.vs7-emailcoupon-row > div {
+    text-align: center;
+}
+
+.vs7-emailcoupon-thanks img {
+    max-width: 369px;
+}
+
+.vs7-emailcoupon-for-staying {
+    font-family: SackersGothicStd;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 33px 0 36px 1px;
+    letter-spacing: 1.65px;
+}
+
+.vs7-emailcoupon-discount {
+    font-family: SackersGothicStd;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 800;
+    margin: -6px 0 37px -6px;
+    letter-spacing: -1px;
+}
+
+.vs7-emailcoupon-code {
+    font-family: BeryRoman-Normal;
+    color: #cc6699;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.vs7-emailcoupon-code span {
+    border: 4px solid #cc6699;
+    padding: 21px 15% 11px 15%;
+}
+
+.vs7-emailcoupon-t2 {
+    font-family: SackersGothicStd;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.vs7-emailcoupon-t2 a {
+    text-decoration: underline;
+}

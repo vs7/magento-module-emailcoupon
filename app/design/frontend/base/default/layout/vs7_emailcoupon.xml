@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>vs7_emailcoupon/vs7_emailcoupon.css</name></action>
+        </reference>
+    </default>
+    <vs7_emailcoupon_index_getcoupon>
+        <reference name="content">
+            <block type="vs7_emailcoupon/getcoupon" name="vs7_emailcoupon.getcoupon" template="vs7_emailcoupon/getcoupon.phtml"/>
+        </reference>
+    </vs7_emailcoupon_index_getcoupon>
+</layout>

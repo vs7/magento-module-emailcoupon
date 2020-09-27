@@ -1,0 +1,17 @@
+<div class="vs7-emailcoupon-container">
+    <div class="vs7-emailcoupon-row">
+        <div class="vs7-emailcoupon-thanks">
+            <img src="<?php echo $this->getSkinUrl('vs7_emailcoupon/img/Thanks123.png') ?>" alt="Thanks" />
+        </div>
+        <div class="vs7-emailcoupon-t1">
+            <p class="vs7-emailcoupon-for-staying">FOR STAYING WITH US!</p><br>
+            <p class="vs7-emailcoupon-discount">Here is your coupon for <?php echo $this->getDiscountPercent();?>% discount</p>
+        </div>
+        <div class="vs7-emailcoupon-code">
+            <span><?php echo $this->getCouponCode();?></span>
+        </div>
+        <div class="vs7-emailcoupon-t2">
+            <span><a href="<?php echo $this->getSendEmailURL();?>">Click here</a> to send it to your email (<?php echo $this->getEmail();?>)</span>
+        </div>
+    </div>
+</div>

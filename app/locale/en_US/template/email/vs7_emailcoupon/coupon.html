@@ -1,0 +1,43 @@
+<!--@subject {{config path="general/store_information/name"}}: Your coupon for discount @-->
+<!--@vars
+{
+    "var coupon": "Coupon Code",
+    "var discount": "Discount"
+}
+@-->
+<!--@styles
+.container {
+    padding: 1rem;
+}
+.container__discount {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.container__coupon {
+    text-align: center;
+}
+.container__coupon__code {
+    display: inline-block;
+    padding: .6rem;
+    font-size: 2rem;
+    color: #c69;
+    border: 3px solid #c69;
+}
+@-->
+
+{{template config_path="design/email/header"}}
+{{inlinecss file="email-inline.css"}}
+
+<div class="container">
+    <div class="container__discount">
+        <span>Here is your coupon for {{var discount}}% discount</span>
+    </div>
+        <div class="container__coupon">
+            <div class="container__coupon__code">
+                <span>{{var coupon}}</span>
+            </div>
+        </div>
+    </div>
+
+{{template config_path="design/email/footer"}}
